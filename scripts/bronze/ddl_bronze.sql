@@ -69,7 +69,7 @@ create table bronze.crm_sales_details(
 
 -- removes table if any
 if OBJECT_ID('bronze.erp_loc_a10', 'U') is not null
-	drop table erp_loc_a101;
+	drop table bronze.erp_loc_a101;
 
 go
 
@@ -81,7 +81,7 @@ create table bronze.erp_loc_a101(
 
 -- removes table if any
 if OBJECT_ID('bronze.erp_cust_az12', 'U') is not null
-	drop table erp_cust_az12;
+	drop table bronze.erp_cust_az12;
 
 go
 
@@ -94,7 +94,7 @@ create table bronze.erp_cust_az12(
 
 -- removes table if any
 if OBJECT_ID('erp_px_cat_g1v2', 'U') is not null
-	drop table erp_px_cat_g1v2;
+	drop table bronze.erp_px_cat_g1v2;
 
 go
 
