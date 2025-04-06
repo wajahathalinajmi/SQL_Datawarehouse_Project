@@ -8,7 +8,6 @@ This project demonstrates a comprehensive data warehousing solution, from buildi
 ## Data Architecture
 
 The data architecture for this project follows Medallion Architecture **Bronze**, **Silver**, and **Gold** layers:
-![Data Architecture](docs/data_architecture.png)
 
 1. **Bronze Layer**: Stores raw data as-is from the source systems. Data is ingested from CSV Files into SQL Server Database.
 2. **Silver Layer**: This layer includes data cleansing, standardization, and normalization processes to prepare data for analysis.
@@ -40,7 +39,7 @@ This project involves:
 - **[SQL Server Express](https://www.microsoft.com/en-us/sql-server/sql-server-downloads):** Lightweight server for hosting your SQL database.
 - **[SQL Server Management Studio (SSMS)](https://learn.microsoft.com/en-us/sql/ssms/download-sql-server-management-studio-ssms?view=sql-server-ver16):** GUI for managing and interacting with databases.
 - **[Git Repository](https://github.com/):** Set up a GitHub account and repository to manage, version, and collaborate on your code efficiently.
-- you can use **[DrawIO](https://www.drawio.com/):** to  design data architecture, models, flows, and diagrams.
+- you can use **[DrawIO](https://www.drawio.com/)** to  design data architecture, models, flows, and diagrams.
 ---
 
 ## Project Requirements
